@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+        body{
+            background-color:antiquewhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 100px 0;
+            box-sizing: border-box;
+            font-family: Outfit;
+
+        }
+        .box{
+            width: 600px; /* Kutu genişliği */
+            
+            background-color: white; /* Kutu rengi */
+            /* border: 2px solid black; Kenarlık */
+            border-radius: 10px; /* Köşe yuvarlama */
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+            /* display: flex; */
+            /* justify-content:center; */
+            /* align-items:flex-start; */
+            display: block;
+            padding: 30px;
+            box-sizing: border-box;
+            margin: 0 auto;
+            
+        }
+        .box img{
+            width: 100%;
+            height: auto;
+            max-height: 250px;
+            border-radius: 15px;
+            object-fit: cover;
+            
+        }
+        .prepbox{
+            width: 89%; /* Kutu genişliği */
+            height: 150px; /* Kutu yüksekliği */
+            background-color: rgb(240, 224, 233); /* Kutu rengi */
+            /* border: 2px solid black; Kenarlık */
+            border-radius: 10px; /* Köşe yuvarlama */
+            /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); Gölge efekti */
+            /* display: flex; */
+            justify-content:center;
+            align-items:flex-start;
+            display: block;
+            padding: 15px;
+            font-family: Young Serif;
+            
+        }
+        .box .prepbox p{
+            justify-content: left;
+        }
+        .step{
+            margin: 15px;
+        }
+        .ingr{
+            padding-left: 0;
+            
+        }
+        .ingr h2{
+            margin-bottom: 10px;
+        }
+        .ingr ul{
+            list-style-position: inside;
+            padding-left: 0;
+        }
+        .ingr ul li{
+            padding-left: 30px;
+            margin-bottom: 10px;
+        }
+        .prepbox li{
+            margin-bottom: 10px;
+        }
+        .ntr{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: space-between;
+            width: 400px;
+            line-height: 1px;
+        }
+        .ntr-data{
+            color: rgb(165, 115, 115);
+        }
+        .step strong{
+            color:rgb(165, 115, 115) ;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="box">
+            <img src="/image-omelette.jpeg" alt="">
+            <h1>Simple Omlette Receipe</h1>
+            
+            <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+            <div class="prepbox">
+                <ul>
+                    <h3 style="color:rgb(165, 115, 115) ;"><strong>Preparation Time</strong></h3>
+                    <li><strong>Total:</strong> Aprroximately 10 minutes</li>
+                    <li><strong>Preparation:</strong> 5 minutes</li>
+                    <li><strong>Cooking:</strong> 5 minutes</li>
+                </ul>
+
+            </div>
+            <div class="ingr">
+                <h2 style="color: rgb(165, 115, 115);"><strong>Ingredients</strong></h2>
+                <ul>
+                    
+                    <li style="padding-left: 15px;">2-3 large eggs</li>
+                    <li style="padding-left: 15px;">Salt, to taste</li>
+                    <li style="padding-left: 15px;">Pepper,to taste</li>
+                    <li style="padding-left: 15px;">1 Tablespoon of butter or oil</li>
+                    <li style="padding-left: 15px;">Optional fillings: cheese, diced vegetables, cooked meats or vegetables</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="inst">
+                <h2 style="color: rgb(165, 115, 115);"><strong>Instructions</strong></h2>
+                <div class="step">
+                    <strong>1.</strong> <span style="padding-left: 15px;"><b>Beat the eggs:</b></span> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.
+                </div>
+                <div class="step">
+                    <strong>2.</strong> <span style="padding-left: 15px;"><b>Heat the pan:</b></span> Place a non-stick pan over medium heat and add butter or oil.
+                </div>
+                <div class="step">
+                    <strong>3.</strong> <span style="padding-left: 15px;"><b>Cook the omlette:</b></span> Once the butter is melted and bubbling, pour in the eggs.Tilt the pan to ensure the eggs evenly coat the surface.
+                </div>
+                <div class="step">
+                    <strong>4.</strong> <span style="padding-left: 15px;"><b>Add fillings (optional):</b></span> When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omlette.
+                </div>
+                <div class="step">
+                    <strong>5.</strong> <span style="padding-left: 15px;"><b>Fold and serve:</b></span> As the omlette continues to cook, carefully lift one edge and fold it over fillings.Let it cook for another minute, then slide it onto a plate.
+                </div>
+                <div class="step">
+                    <strong>6.</strong> <span style="padding-left: 15px;"><b>Enjoy:</b></span> Serve hot, with additional salt and pepper if needed.
+                </div>
+            </div>
+            <hr>
+            <h2 style="color: rgb(165, 115, 115);"><strong>Nutrition</strong></h2>
+            <p>The table below shows nutritional values per serving without the additional fillings.</p>
+            <div class="ntr">
+                <p>Calories</p>
+                <p class="ntr-data"><b>277 kcal</b></p>
+            </div>
+            <hr>
+            <div class="ntr">
+                <p>Carbs</p>
+                <p class="ntr-data"><b>25 gr</b></p>
+            </div>
+            <hr>
+            <div class="ntr">
+                <p>Protein</p>
+                <p class="ntr-data"><b>13 gr</b></p>
+            </div>
+            <hr>
+            <div class="ntr">
+                <p>Fat</p>
+                <p class="ntr-data"><b>6 gr</b></p>
+            </div>
+            <hr>
+                
+            
+            
+        </div>
+    </div>
+</body>
+</html>
